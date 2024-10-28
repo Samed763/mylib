@@ -1,7 +1,7 @@
-CC = clang
+CC = gcc
 CFLAGS = -Wall -Werror -Wextra
 SRCS = ft_atoi.c \
-		ft_strlen.c\
+		ft_strlen.c \
 		ft_bzero.c \
 		ft_isalnum.c \
 		ft_isalpha.c \
@@ -15,14 +15,13 @@ SRCS = ft_atoi.c \
 OBJS = $(SRCS:.c=.o)
 NAME = libft.a
 
-
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	ar rcs $@ $^  # Tab ile başlamalı.
+	ar rcs $@ $^
 
 %.o: %.c
-	$(CC) $(CFLAGS) -c $< -o $@  # Tab ile başlamalı.
+	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
 	rm -f $(OBJS)
