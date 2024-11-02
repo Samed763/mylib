@@ -6,9 +6,11 @@
 /*   By: sadinc <sdinc763@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 14:12:35 by sadinc            #+#    #+#             */
-/*   Updated: 2024/11/01 14:18:01 by sadinc           ###   ########.fr       */
+/*   Updated: 2024/11/02 14:41:17 by sadinc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdio.h>
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {

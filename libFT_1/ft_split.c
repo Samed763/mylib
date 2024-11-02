@@ -5,13 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: sadinc <sdinc763@gmail.com>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/24 22:03:44 by sozbek            #+#    #+#             */
-/*   Updated: 2024/11/01 16:18:40 by sadinc           ###   ########.fr       */
+/*   Created: 2024/11/02 14:33:17 by sadinc            #+#    #+#             */
+/*   Updated: 2024/11/02 14:40:39 by sadinc           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 static int	str_count(char const *str, char sep)
 {
